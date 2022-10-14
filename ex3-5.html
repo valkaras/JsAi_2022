@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>복합선택자</title>
+    <style>
+        span {
+            text-align: justify
+        }
+
+        h1 {
+            text-align: justify
+        }
+
+        p.c1,
+        #p1 {
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <span>Heading line test</span>
+    <span></span>
+    <div>
+        <p>child 1</p>
+        <p>child 2</p>
+        <div>
+            <p class="c1">grandchild</p>
+        </div>
+    </div>
+    <p id="p1">neighborhood child</p>
+</body></html>

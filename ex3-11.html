@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>속성 선택자</title>
+    <style>
+        h3[class] {
+            color: red
+        }
+
+        /*        p[class="ipage"]{color: blue} 해당속성*/
+        /*        p[class~="i"]{color: blue} 공백포함*/
+        /*        p[class^="i"]{color: blue} 첫글자 */
+        /*        p[class$="i"]{color: blue} 끝글자*/
+        p[class*="i"] {
+            color: blue
+        }
+
+        해당글자포함
+    </style>
+</head>
+
+<body>
+    <h3 class="logo">서울특별시</h3>
+    <h3>경기도</h3>
+    <p class="i">주소록을 작성합니다.</p>
+    <p class="ipage">전화번호부를 작성합니다.</p>
+    <p class="screnni">건강기록부를 작성합니다.</p>
+    <p class="i love u">금전출납부를 작성합니다.</p>
+    <p class="i-1">손익계산서를 작성합니다.</p>
+</body></html>
