@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>뉴플릭스 만들기(로그인)</title>
+    <link rel="stylesheet" href="./css/login.css">
+    <style>
+      .img {
+        width: 100%;
+        height: 280px;
+        background: linear-gradient(
+            to bottom,
+            rgba(255, 255, 255, 0) 10%,
+            rgba(255, 255, 255, 0.1) 60%,
+           rgba(255, 255, 255, 0.2) 70%,
+           rgba(255, 255, 255, 0.4) 80%,
+           rgba(255, 255, 255, 0.2) 90%,
+           rgba(255, 255, 255, 0) 100%
+        ), url("img/bg.png"), no-repeat
+      }
+
+      .login-title {
+        text-align: center;
+        
+      }
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <img src="./img/bg.png" alt="사진안뜸sorry" class="login-img">
+    <!--div.login-title>h1.login-title__maintext{Nexflix}+p.login-title__subtext+br -->
+    <div ckass="login-title">
+        <h1 class="login-title__maintext">Nexflix</h1>
+        <p class="login-title__subtext">새로운 OTT 뉴플렉스 등장!<br>
+        지금 가입하면 무료!!</p>
+    </div>     
+    <form action="find.html" class="login-form">
+ <input type="text" name="username" autocomplete="off" placeholder="ID" required>
+ <input type="password" name="password" autocomplete="off" placeholer="PASSWORD" required>
+ <input type="submit" value="접속하기">
+
+    </form>
+</body>
+</html>
